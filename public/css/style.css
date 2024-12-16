@@ -1,0 +1,91 @@
+/* public/css/styles.css */
+
+/* Fondo verde de la página */
+.bg-green {
+    background-color: #0D6E4D; /* Fondo verde */
+    min-height: 100vh; /* Altura completa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el formulario sin fondo blanco */
+.login-form {
+    background: none; /* Sin fondo blanco */
+    padding: 30px; /* Espaciado interno */
+    max-width: 500px; /* Ancho máximo aumentado */
+    width: 100%; /* Asegura que se ajuste al contenedor */
+    color: black; /* Color del texto */
+    text-align: center; /* Centrar texto */
+}
+
+/* Logo, con espaciado en la parte superior */
+.login-form img {
+    width: 120px; /* Ancho de la imagen */
+    margin-bottom: 30px; /* Espaciado debajo del logo */
+}
+
+/* Añadir algo de estilo a los inputs y el botón */
+.form-outline {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 8px; /* Bordes redondeados en los campos de texto */
+}
+
+.btn-block {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho */
+    padding: 12px; /* Asegura que el botón sea más grande y fácil de interactuar */
+    border-radius: 8px;
+}
+
+/* Estilo para el formulario de login */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS */
+.logo-container {
+    
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .logo-container img {
+    width: 150px;
+    height: auto;
+  }
+  
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 576px) {
+    .card {
+        padding: 20px;
+        max-width: 100%; /* El formulario ocupará todo el ancho disponible en pantallas pequeñas */
+    }
+
+    .form-outline input {
+        font-size: 14px; /* Ajuste en el tamaño del texto en pantallas pequeñas */
+    }
+
+    .btn-block {
+        font-size: 16px; /* Ajuste en el tamaño del texto del botón */
+        padding: 15px; /* Hacer el botón más grande en pantallas pequeñas */
+    }
+}
+
+/* Mejorar la visibilidad y proporción del formulario en pantallas medianas */
+@media (min-width: 768px) {
+    .card {
+        max-width: 800px; /* Aumentar el ancho máximo en pantallas medianas */
+    }
+}
+
+/* Pantallas más grandes (escritorios) */
+@media (min-width: 992px) {
+    .card {
+        max-width: 900px; /* Aumentar aún más el ancho máximo en pantallas grandes */
+    }
+}

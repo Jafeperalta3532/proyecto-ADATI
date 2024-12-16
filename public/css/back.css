@@ -1,0 +1,17 @@
+body {
+    background-color: #007B33;
+    color: white;
+}
+/* Hover en los elementos de lista */
+.list-group-item:hover {
+    background-color: #005824; /* Verde más oscuro */
+    color: white !important; /* Forzar cambio de color en el texto */
+}
+/* Aseguramos que los enlaces ocupen todo el ancho */
+.list-group-item a {
+    display: block;
+    text-align: center; /* Centramos el texto */
+    padding: 10px; /* Añadimos espacio interno */
+    color: inherit; /* Inherita el color del padre */
+    text-decoration: none; /* Quitamos subrayado */
+}
